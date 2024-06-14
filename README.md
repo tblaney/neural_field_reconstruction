@@ -14,6 +14,21 @@ Each model type was trained with specific hyperparameters aiming to minimize the
 
 The models' performances were evaluated using Chamfer and Hausdorff distances as metrics, with detailed results presented for different objects like bunnies, columns, dragons, serapis, and teapots across various resolutions. Multi-LOD models generally provided better geometric fidelity, especially at higher resolutions, while hash grids faced challenges with detail preservation and outlier management.
 
+The following images show the reconstructions of the bunny model at different resolutions using the multi-LOD method:
+
+<table>
+  <tr>
+    <th>64 Resolution</th>
+    <th>128 Resolution</th>
+    <th>256 Resolution</th>
+  </tr>
+  <tr>
+    <td><img src="imgs/bunny_m_lod_64.png" alt="Bunny at 64 Resolution"></td>
+    <td><img src="imgs/bunny_m_lod_128.png" alt="Bunny at 128 Resolution"></td>
+    <td><img src="imgs/bunny_m_lod_256.png" alt="Bunny at 256 Resolution"></td>
+  </tr>
+</table>
+
 ## Visualizations
 
 Reconstructions were visualized in Blender using the EEVEE render engine, and visual comparisons of the models across different resolutions were included in the submission.
