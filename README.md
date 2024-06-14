@@ -1,6 +1,6 @@
 # Neural Field Reconstruction
 
-This repository contains the project for CMPT 985 - 3D Vision, authored by Traven Blaney. The main objective of this project is to develop and evaluate neural network models for reconstructing 3D objects from occupancy field samples.
+This repository contains the project for CMPT 985 - 3D Vision, authored by Traven Blaney. The main objective of this project is to develop and evaluate neural network models for reconstructing 3D objects from occupancy field samples. The full report is available at 3dv_hw3_report.pdf
 
 ## Introduction
 
