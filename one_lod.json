@@ -1,0 +1,17 @@
+{
+    "lr": 0.01,
+    "epochs": 100,
+    "current_obj": "bunny.obj",
+    "current_obj_path": "processed/bunny.obj",
+    "resolution": 128,
+    "batch_size": 4096,
+    "weight_decay": 0.00001,
+    "lr_decay_step": 20,
+    "lr_decay_gamma": 0.1,
+    "grid_type": "dense",
+    "grid_feature_dimension": 16,
+    "mlp_width": 64,
+    "num_mlp_layers": 2,
+    "base_lod": 8,
+    "num_lods": 1
+}
